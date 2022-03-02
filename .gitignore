@@ -1,0 +1,4 @@
+
+# Project exclude paths
+/.pio/build/
+/node_modules/
