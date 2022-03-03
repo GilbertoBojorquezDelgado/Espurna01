@@ -3,6 +3,27 @@
 - Se descargo el proyecto desde "https://github.com/xoseperez/espurna"
 - Se modifico "espurna\code\espurna\config\arduino.h", para activar o desactivar opciones.
 
+### Compilar el codigo (PlatformIO)
+```
+platformio -c clion run
+```
+
+### Compilar y Programar el microcontrolador
+```
+platformio -c clion run --target upload
+
+o
+
+pio run -t upload
+```
+
+
+
+
+### Permiso para acceder a ttyUSB0 en Linux
+```
+sudo chmod a+rw /dev/ttyUSB0
+```
 
 
 
