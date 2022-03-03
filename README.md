@@ -8,7 +8,7 @@
 platformio -c clion run
 ```
 
-### Compilar y Programar el microcontrolador
+### Compilar y Programar el microcontrolador (PlatformIO)
 ```
 platformio -c clion run --target upload
 
